@@ -10,6 +10,11 @@ using SPWN;
 >[!IMPORTANT]
 > Don't forget to include the **using** statement. ☝️  
 
+### `Dbug.cs`
+> Provides a custom logging solution that extends Unity's <c>Debug</c> class.
+
+Related Scripts:
+- `DbugDiagnostics.cs` (When attached to a GameObject- On Game Start, it runs a Burn-In test with the `Dbug` class.)
 
 <!-- Start Whitespace /-->
 &nbsp;  
