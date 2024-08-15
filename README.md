@@ -1,10 +1,15 @@
 <!-- Centered top image -->
 <p align="center">
-  <img src="https://github.com/SpawnCampGames/Documentation/blob/main/SPWN.png" width="307" height="91" alt="SPWN Logo">
+  <img src="https://github.com/SpawnCampGames/Documentation/blob/main/gfx/SPWN_DOC.png" width="307" height="91" alt="SPWN Logo">
 </p>
 
-## SPWN DOCS 📘
-> Explore our Documentation for `SPWN`;
+## 📗SPWN DOCS
+```csharp
+using SPWN;
+```
+>[!IMPORTANT]
+> Don't forget to include the **using** statement. ☝️  
+
 
 <!-- Start Whitespace /-->
 &nbsp;  
@@ -18,10 +23,5 @@
 
 <!-- Centered bottom image with scaling -->
 <p align="center">
-  <img src="https://github.com/SpawnCampGames/Documentation/blob/main/SpawnCampGames.png" width="200" alt="SpawnCampGames">
-</p>
-
-<!-- Centered text -->
-<p align="center">
-  <sub>SpawnCampGames 2024</sub>
+  <img src="https://github.com/SpawnCampGames/Documentation/blob/main/gfx/SpawnCampGames_DOC.png" width="300" alt="SpawnCampGames">
 </p>
