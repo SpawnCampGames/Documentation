@@ -46,6 +46,11 @@ Dbug.MyLog(msg, #FFFFFF, false, false, false, false);
 ```
 `msg, #hexcolor, bold, italic, underline, strikethrough`
 
+### 🧩 DbugDiagnostics Script
+
+> [!NOTE]  
+> `DbugDiagnostic.cs`, within the scene, will run on Start(); and cycle all Dbug Logs.
+
 <!-- Start Whitespace /-->
 &nbsp;  
 &nbsp;  
