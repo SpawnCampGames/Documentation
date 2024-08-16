@@ -12,8 +12,7 @@ using SPWN;
 > Don't forget to include the **using** statement. ☝️
 
 <details>
-<summary>📜 Dbug</summary>
-### 📜Dbug
+<summary>📜 **Dbug**</summary>
 
 #### Regular Logs
 ```csharp
