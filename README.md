@@ -13,8 +13,9 @@ using SPWN;
 
 <details>
 <summary>📗Dbug.cs</summary>
-  
-> Custom Debug.Log Extensions
+
+---
+Custom `Debug.Log` Extensions
   
 #### Regular Logs
 ```csharp
@@ -52,8 +53,11 @@ Dbug.MyLog(msg, #FFFFFF, false, false, false, false);
 
 <details>
 <summary>📗DbugDiagnostic.cs</summary>
+  
+---
 
-> Cycles through all `Dbug.Log`s
+- When on a GameObject (within the scene): 
+- Cycles through `Dbug.Log`
 
 
 
