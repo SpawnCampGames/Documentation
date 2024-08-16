@@ -12,7 +12,15 @@ using SPWN;
 
 ### `Dbug.cs`
 > Provides a custom logging solution that extends Unity's <c>Debug</c> class.
-
+```cs
+public class DbugDiagnostics : MonoBehaviour
+{
+  void Start()
+  {
+      StartBurnIn();
+  }
+}
+```
 Related Scripts:
 - `DbugDiagnostics.cs` (When attached to a GameObject- On Game Start, it runs a Burn-In test with the `Dbug` class.)
 
