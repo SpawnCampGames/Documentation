@@ -12,7 +12,10 @@ using SPWN;
 > Don't forget to include the **using** statement. ☝️
 
 <details>
-<summary>📜 Dbug</summary>
+<summary>📗Dbug.cs</summary>
+  
+> Custom Debug.Log Extensions
+  
 #### Regular Logs
 ```csharp
 Dbug.Log(msg);
@@ -46,12 +49,16 @@ Dbug.MyLog(msg, #FFFFFF, false, false, false, false);
 ```
 `msg, #hexcolor, bold, italic, underline, strikethrough`
 </details>
-<details>
-<summary>📜 DbugDiagnostics</summary>
 
-> [!NOTE]  
-> `DbugDiagnostic.cs`, within the scene, will run on Start(); and cycle all Dbug Logs.
+<details>
+<summary>📗DbugDiagnostic.cs</summary>
+
+> Cycles through all `Dbug.Log`s
+
+
+
 </details>
+
 <!-- Start Whitespace /-->
 &nbsp;  
 &nbsp;  
