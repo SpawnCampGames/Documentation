@@ -40,7 +40,7 @@ Dbug.Strikethrough(msg);
 Dbug.Emphasis(msg);
 ```
 
-#### Chose your flavor.
+#### 🍦Chose your flavor.
 ```csharp
 Dbug.MyLog(msg, #FFFFFF, false, false, false, false);
 ```
