@@ -4,12 +4,14 @@
 </p>
 
 ## 📗SPWN DOCS
+```csharp
 using SPWN;
+```
 
 >[!IMPORTANT]
 > Don't forget to include the **using** statement. ☝️  
 
-### Dbug
+### 📜Dbug
 
 #### Regular Logs
 ```csharp
