@@ -4,25 +4,45 @@
 </p>
 
 ## 📗SPWN DOCS
-```csharp
 using SPWN;
-```
+
 >[!IMPORTANT]
 > Don't forget to include the **using** statement. ☝️  
 
-### `Dbug.cs`
-> Provides a custom logging solution that extends Unity's <c>Debug</c> class.
-```cs
-public class DbugDiagnostics : MonoBehaviour
-{
-  void Start()
-  {
-      StartBurnIn();
-  }
-}
+### Dbug
+
+#### Regular Logs
+```csharp
+Dbug.Log(msg);
+Dbug.Warning(msg);
+Dbug.Error(msg);
 ```
-Related Scripts:
-- `DbugDiagnostics.cs` (When attached to a GameObject- On Game Start, it runs a Burn-In test with the `Dbug` class.)
+#### Colored Logs
+```csharp
+Dbug.Red(msg);
+Dbug.Orange(msg);
+Dbug.Yellow(msg);
+Dbug.Green(msg);
+Dbug.Blue(msg);
+Dbug.Indigo(msg);
+Dbug.Violet(msg);
+```
+#### Stylized Logs
+```csharp
+Dbug.Bold(msg);
+Dbug.Italic(msg);
+Dbug.Underline(msg);
+Dbug.Strikethrough(msg);
+```
+```csharp
+Dbug.Emphasis(msg);
+```
+
+#### Chose your flavor.
+```csharp
+Dbug.MyLog(msg, #FFFFFF, false, false, false, false);
+```
+`msg, #hexcolor, bold, italic, underline, strikethrough`
 
 <!-- Start Whitespace /-->
 &nbsp;  
