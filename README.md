@@ -9,8 +9,10 @@ using SPWN;
 ```
 
 >[!IMPORTANT]
-> Don't forget to include the **using** statement. ☝️  
+> Don't forget to include the **using** statement. ☝️
 
+<details>
+<summary>📜 Dbug</summary>
 ### 📜Dbug
 
 #### Regular Logs
@@ -46,11 +48,9 @@ Dbug.MyLog(msg, #FFFFFF, false, false, false, false);
 ```
 `msg, #hexcolor, bold, italic, underline, strikethrough`
 
-### 🧩 DbugDiagnostics Script
-
 > [!NOTE]  
 > `DbugDiagnostic.cs`, within the scene, will run on Start(); and cycle all Dbug Logs.
-
+</details>
 <!-- Start Whitespace /-->
 &nbsp;  
 &nbsp;  
